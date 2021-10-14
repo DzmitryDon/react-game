@@ -1,0 +1,28 @@
+{
+  "short_name": "Игра Memory",
+  "name": "Игра Memory",
+  "icons": [
+    {
+      "src": "favic.ico",
+      "sizes": "256x256 128x128 64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "purpose": "any maskable",
+      "sizes": "256x256 128x128 64x64"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "purpose": "any maskable",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#9370DB"
+}

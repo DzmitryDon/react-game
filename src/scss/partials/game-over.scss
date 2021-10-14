@@ -1,0 +1,47 @@
+.gameover_page {
+  position: relative;
+  justify-content: center;
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 3.7em;
+  }
+
+  h2,
+  h3,
+  h4 {
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+
+  .username {
+    font-size: 1.8em;
+    font-weight: 200;
+    text-decoration: underline;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  h4 {
+    font-size: 1.2em;
+  }
+
+  .gameover_buttons {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    button {
+      margin-bottom: 15px;
+    }
+  }
+
+  @media (min-width: 500px) {
+    .gameover_buttons {
+      position: static;
+      margin-top: 60px;
+    }
+  }
+}

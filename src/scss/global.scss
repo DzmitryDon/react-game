@@ -1,0 +1,83 @@
+@import "./partials/variables.scss";
+@import "./partials/layout.scss";
+@import "./partials/home.scss";
+@import "./partials/puzzle.scss";
+@import "./partials/exit.scss";
+@import "./partials/cards.scss";
+@import "./partials/game-over.scss";
+@import "./partials/animate.scss";
+@import url(https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=DM+Mono:wght@100;200;300;400;500&display=swap);
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: $black;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "DM Mono", monospace;
+  width: 100%;
+  height: 100vh;
+}
+
+#root {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+section {
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.btn {
+  border: 1px solid #222;
+  box-shadow: $shadow;
+  box-sizing: border-box;
+  display: block;
+  font-family: "DM Mono", monospace;
+  font-size: 1.3em;
+  height: 40px;
+  margin: 0px auto;
+  overflow: visible;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: $black;
+  color: $white;
+}
+
+.btn-secondary {
+  background-color: $white;
+  color: $black;
+}
+
+.title {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  max-width: 400px;
+  font-size: 3em;
+  line-height: 1;
+  margin: 0px auto;
+  text-align: center;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+}
