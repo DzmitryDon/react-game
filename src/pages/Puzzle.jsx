@@ -27,7 +27,7 @@ export default function Puzzle() {
       <GridCards />
       <ProgressBar />
       <div className="puzzle_button">
-        <Button color="white" msg="Покинуть игру!" click={handleOpenModal} />
+        <Button color="Salmon" msg="Покинуть игру!" click={handleOpenModal} />
       </div>
     </section>
   );

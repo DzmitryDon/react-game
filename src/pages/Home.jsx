@@ -21,7 +21,7 @@ export default function Home() {
   useEffect(() => {
     dispatch(clearCardsData());
     dispatch(clearPointsData());
-  }, []);
+  }, [dispatch]);
 
   const handleSubmit = () => {
     dispatch(addUserName(name));

@@ -17,11 +17,11 @@ export default function Exit({ open = false }) {
     open && (
       <div className="exit_container">
         <div className="exit_page animated fadeIn faster">
-          <h1 className="title">¿Хотите покинуть игру?</h1>
+          <h1 className="title"> Покинуть игру?</h1>
 
           <div className="exit_buttons">
             <Link to="/">
-              <Button msg="Да, ухожу" color="white" click={handleExit} />
+              <Button msg="Да, ухожу" color="Salmon" click={handleExit} />
             </Link>
             <Button
               msg="Нет, продолжаю играть"

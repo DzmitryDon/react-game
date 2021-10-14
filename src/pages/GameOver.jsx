@@ -68,7 +68,7 @@ export default function GameOver() {
           <Button
             className="exit_game"
             msg="Выйти из игра"
-            color="white"
+            color="Salmon"
             click={handleExit}
           />
         </Link>

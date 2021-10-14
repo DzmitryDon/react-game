@@ -51,6 +51,8 @@ export const GridCards = () => {
     }
   }, [secondOption]);
 
+  /* attempts, currentPoints, dispatch, firstOption */
+
   return (
     <div className="puzzle_grid">
       {!loading ? (
@@ -60,7 +62,6 @@ export const GridCards = () => {
       ) : (
         <Loading />
       )}
-      {/* <div className="puzzle_card">dima card</div> */}
     </div>
   );
 };
