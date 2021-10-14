@@ -1,0 +1,24 @@
+$black: #3b3b3b;
+$white: #ffffff;
+$red: #ee3b37;
+$red_slow: #f3c4c4;
+$blue: #3e83c4;
+$blue_slow: #bad8f5;
+$green: #16a167;
+$yellow_slow: #f1e1b8;
+$yellow: #feba12;
+
+$shadow: 4px 4px 0px 1px rgba(53, 25, 25, 0.7);
+
+.nes-progress {
+  border-image-slice: 2;
+  border-image-width: 2;
+  border-image-repeat: stretch;
+  border-image-outset: 2;
+  width: 100%;
+  height: 48px;
+  margin: 4px;
+  background-color: #fff;
+  -webkit-appearance: none;
+  appearance: none;
+}
